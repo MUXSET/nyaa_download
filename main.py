@@ -1,7 +1,6 @@
 import os
-import cho1
-import cho2
-import cho3
+
+import cho123
 
 
 def clear_screen():
@@ -29,13 +28,13 @@ def get_user_choice():
 def process_choice(choice_menu):
     if choice_menu == 1:
         print("你选择了选项 1. 单链接下载")
-        cho1.main()
+        cho123.cho1()
     elif choice_menu == 2:
         print("你选择了选项 2. 批量下载")
-        cho2.main(1)
+        cho123.cho2()
     elif choice_menu == 3:
         print("你选择了选项 3. 搜索番号下载")
-        cho3.main()
+        cho123.cho3()
     elif choice_menu == 4:
         print("程序已退出")
     else:
